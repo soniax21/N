@@ -198,7 +198,7 @@ button {
     font-size: 18px;
     background-color: #fff;
     border: 2px solid #000;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -292,3 +292,72 @@ button {
 .pagination span {
     color: #666;
 }
+
+
+footer {
+    background-color: #90c8e0;
+    padding: 20px;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    width: 30%;
+  }
+
+  .footer-social {
+    margin-top: 15px;
+  }
+  
+  .footer-social a img {
+    width: 30px;
+    margin-right: 10px;
+    
+  }
+  
+  .footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .payment-icons img {
+    width: 250px;
+    margin-right: 5px;
+    margin-top: 10px
+  }
+  
+  .footer-contact {
+    margin-top: 15px;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+  }
+  
+  .footer-legal {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  .footer-legal a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  

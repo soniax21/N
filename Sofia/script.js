@@ -43,3 +43,4 @@ document.querySelector('.preorder-next').addEventListener('click', () => {
 });
 
 showPreorderSlide(preorderIndex);
+
