@@ -44,3 +44,48 @@ document.querySelector('.preorder-next').addEventListener('click', () => {
 
 showPreorderSlide(preorderIndex);
 
+
+
+/*const preorderSlider = document.querySelector('.preorder-slider');
+const preorderSlides = document.querySelectorAll('.preorder-slide');
+let preorderIndex = 0;
+
+function showPreorderSlide(index) {
+    const offset = index * 100;
+    preorderSlider.style.transform = `translateX(-${offset}%)`;
+}
+
+document.querySelector('.preorder-prev').addEventListener('click', () => {
+    preorderIndex = (preorderIndex === 0) ? preorderSlides.length - 1 : preorderIndex - 1;
+    showPreorderSlide(preorderIndex);
+});
+
+document.querySelector('.preorder-next').addEventListener('click', () => {
+    preorderIndex = (preorderIndex === preorderSlides.length - 1) ? 0 : preorderIndex + 1;
+    showPreorderSlide(preorderIndex);
+});
+
+showPreorderSlide(preorderIndex);*/
+
+
+
+document.getElementById("catalog-button").addEventListener("click", function(event) {
+    event.stopPropagation();
+    var dropdownMenu = document.getElementById("dropdown-menu");
+
+    if (dropdownMenu.style.display === "block") {
+        dropdownMenu.style.display = "none";
+        this.classList.remove("active"); 
+    } else {
+        dropdownMenu.style.display = "block";
+        this.classList.add("active"); 
+    }
+});
+
+window.onclick = function(event) {
+    var dropdownMenu = document.getElementById("dropdown-menu");
+    if (event.target !== document.getElementById("catalog-button")) {
+        dropdownMenu.style.display = "none";
+        document.getElementById("catalog-button").classList.remove("active"); 
+    }
+};

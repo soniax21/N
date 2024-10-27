@@ -12,28 +12,63 @@
 </head>
 <body>
     
-    <div class="nav">
-        <div class="logo-image">
-            <img src="images/title-image.png" alt="Logo">
-        </div>
-        <div class="two-sides">
-            <div class="logo-text">
-                <h5>BOOKSTORE</h5>
-                <p>Увійти Кошик Сердечко</p>
-                <div class="logo-text-inside">
-                    <p>Новини Каталог Акції Анонси</p>
+        <div class="nav">
+            <div class="logo-image">
+                <img src="images/title-image.png" alt="Logo">
+            </div>
+            <div class="two-sides">
+                <div class="logo-text">
+                    <h5>BOOKSTORE</h5>
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m0 7c2.67 0 8 1.33 8 4v3H4v-3c0-2.67 5.33-4 8-4m0 1.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1"/>
+                        </svg>
+                        Увійти 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.1em" height="1.1em" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/>
+                        </svg>
+                        Кошик 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3"/>
+                        </svg>
+                    </p>
+                    <div class="logo-text-inside">
+                        <p>
+                            <span class="news">Новини</span> 
+                            <span class="catalog" id="catalog-button">Каталог</span> 
+                            <span class="promotions">Акції</span> 
+                            <span class="announcements">Анонси</span>
+                        </p>
+                        <div class="dropdown-content" id="dropdown-menu">
+                            <a href="#">Фентезі</a>
+                            <a href="#">Романтична проза</a>
+                            <a href="#">Детектив</a>
+                            <a href="#">Фантастика</a>
+                            <a href="#">Трилери та жахи</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-text">
+                    <div class="pad">
+                        <p>+38 098 3467 127</p>
+                        <p>bookstore@gmail.com</p>
+                        <div class="social">
+                            <a href="#"><img src="images/photo/Facebook_f_logo_(2019).svg"></a>
+                            <a href="#"><img src="images/photo/telegram_cvet-d23c11fa.png" width="40" height="32"></a>
+                            <a href="#"><img src="images/photo/5968776.png"></a>
+                        </div>
+                        <p>UA</p>
+                    </div>
+                        <div class="search">
+                            <input type="text" placeholder="Знайти книгу">
+                            <button type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                </svg>
+                            </button>
+                        </div>                
                 </div>
             </div>
-            <div class="logo-text">
-                <div class="pad">
-                    <p>+38 098 3467 127</p>
-                    <p>bookstore@gmail.com</p>
-                    <p>значки</p>
-                    <p>UA</p>
-                </div>
-            </div>
         </div>
-    </div>
     <div class="h-text">
         <p>Популярні</p>
     </div>
@@ -81,7 +116,7 @@
                         <span>220 грн</span>
                     </div>
                     <div class="book">
-                        <img src="c:\Users\sofia\Downloads\62541_124791_d.jpg" alt="Остання книга">
+                        <img src="images/photo/62541_124791_d.jpg" alt="Остання книга">
                         <p>Шістка Атласа</p>
                         <span>450 грн</span>
                     </div>
@@ -89,22 +124,22 @@
 
                 <div class="slide">
                     <div class="book">
-                        <img src="c:\Users\sofia\Downloads\62213_124018_k.jpg" alt="Назва книги 1">
+                        <img src="images/photo/62213_124018_k.jpg" alt="Назва книги 1">
                         <p>Виживуть п'ятеро</p>
                         <span>550 грн</span>
                     </div>
                     <div class="book">
-                        <img src="c:\Users\sofia\Downloads\62101_123757_k.jpg" alt="Назва книги 2">
+                        <img src="images/photo/62101_123757_k.jpg" alt="Назва книги 2">
                         <p>Сад кісток</p>
                         <span>380 грн</span>
                     </div>
                     <div class="book">
-                        <img src="c:\Users\sofia\Downloads\61167_121268_k.jpg" alt="Назва книги 3">
+                        <img src="images/photo/61167_121268_k.jpg" alt="Назва книги 3">
                         <p>Панк 57</p>
                         <span>320 грн</span>
                     </div>
                     <div class="book">
-                        <img src="c:\Users\sofia\Downloads\62276_124285_k.jpg" alt="Назва книги 4">
+                        <img src="images/photo/62276_124285_k.jpg" alt="Назва книги 4">
                         <p>Зіпсований</p>
                         <span>350 грн</span>
                     </div>
@@ -115,8 +150,7 @@
             <button class="next">&#10095;</button>
         </div>
     </div>
-
-    <div class="h-text">
+    <div class="h-text1">
         <p>Попереднє замовлення</p>
     </div>
     <div class="preorder-slider-container">
@@ -124,7 +158,7 @@
             <div class="preorder-slide">
                 <div class="preorder-content">
                     <div class="preorder-image">
-                        <img src="c:\Users\sofia\Downloads\61919_123354_k.jpg" alt="Залізне полум'я">
+                        <img src="images/photo/61919_123354_k.jpg" alt="Залізне полум'я">
                     </div>
                     <div class="preorder-text">
                         <h3>Залізне полум’я</h3>
@@ -140,7 +174,7 @@
             <div class="preorder-slide">
                 <div class="preorder-content">
                     <div class="preorder-image">
-                        <img src="c:\Users\sofia\Downloads\62734_125248_k.jpg" alt="Безсила">
+                        <img src="images/photo/62734_125248_k.jpg" alt="Безсила">
                     </div>
                     <div class="preorder-text">
                         <h3>Безсила</h3>
@@ -202,22 +236,22 @@
                 <p class="book-price">250 грн</p>
             </div>
             <div class="book-item">
-                <img src="c:\Users\sofia\Downloads\61885_123723_k.jpg" alt="Книга 1">
+                <img src="images/photo/61885_123723_k.jpg" alt="Книга 1">
                 <p class="book-title">Секрет служниці</p>
                 <p class="book-price">200 грн</p>
             </div>
             <div class="book-item">
-                <img src="c:\Users\sofia\Downloads\50328_120832_k.jpg" alt="Книга 2">
+                <img src="images/photo/50328_120832_k.jpg" alt="Книга 2">
                 <p class="book-title">Аутсайдер</p>
                 <p class="book-price">420 грн</p>
             </div>
             <div class="book-item">
-                <img src="c:\Users\sofia\Downloads\59421_118622_k.jpg" alt="Книга 2">
+                <img src="images/photo/59421_118622_k.jpg" alt="Книга 2">
                 <p class="book-title">Голлі</p>
                 <p class="book-price">440 грн</p>
             </div>
             <div class="book-item">
-                <img src="c:\Users\sofia\Downloads\61827_123080_k.jpg" alt="Книга 2">
+                <img src="images/photo/61827_123080_k.jpg" alt="Книга 2">
                 <p class="book-title">Довга хода</p>
                 <p class="book-price">330 грн</p>
             </div>
@@ -231,6 +265,54 @@
             <a href="#">10</a>
         </div>
     </div>
+    <div class="reviews-quotes-container">
+        <div class="reviews">
+            <div class="header">Відгуки</div>
+            <div class="review-item">
+                <p class="review-title">Кров і попіл: Із крові й попелу (Подарункове видання)</p>
+                <p class="review-text">xxxxxxx@gmail.com: Гарна книга. Швидка доставка. Відмінне упакування. Величезне дякую! Рекомендую даний сайт!!! 😊</p>
+                <a href="#" class="review-link">Інші відгуки до книги →</a>
+            </div>
+            <div class="review-item">
+                <p class="review-title">Семиголовий дракон</p>
+                <p class="review-text">Любителька книжок: Подекуди книга мила, подекуди весела, подекуди романтична, подекуди сумна, а подекуди трагічна. Багато чого можна зустріти в цій історії, що робить її дуже цікавою.</p>
+                <a href="#" class="review-link">Інші відгуки до книги →</a>
+            </div>
+            <div class="review-item">
+                <p class="review-title">Одіссея капітана Блада</p>
+                <p class="review-text">Віталій: Прекрасна пригодницька книга</p>
+                <a href="#" class="review-link">Інші відгуки до книги →</a>
+            </div>
+        </div>
+    
+        <div class="quotes">
+            <div class="header">Цитати</div>
+            <div class="quote-item">
+                <p class="quote-text">• Є злочини гірші, ніж спалювати книги. Наприклад – не читати їх.</p>
+                <p class="quote-author">Рей Бредбері «451 градус за Фаренгейтом»</p>
+                <a href="#" class="quote-link">Інші цитати з книги →</a>
+            </div>
+            <div class="quote-item">
+                <p class="quote-text">• Ми не виносимо людей з тими ж недоліками, що і у нас.</p>
+                <p class="quote-author">Оскар Уайльд «Портрет Доріана Грея»</p>
+                <a href="#" class="quote-link">Інші цитати з книги →</a>
+            </div>
+            <div class="quote-item">
+                <p class="quote-text">• Парадокс читання: воно відволікає нас від реальності, щоб наповнити реальність змістом.</p>
+                <p class="quote-author">Даніель Пеннак «Як роман»</p>
+                <a href="#" class="quote-link">Інші цитати з книги →</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="video-section">
+        <p class="h-text">Найкращі книги 2024</p>
+        <video class="video-frame" controls>
+            <source src="video.mp4" type="video/mp4">
+            Ваш браузер не підтримує відтворення відео.
+        </video>
+    </div>
+
 
 
     <footer>
@@ -256,12 +338,11 @@
               <li>Контакти</li>
             </ul>
             <div class="footer-social">
-                <a href="#"><img src="c:\Users\sofia\Downloads\Facebook_f_logo_(2019).svg"></a>
-                <a href="#"><img src="c:\Users\sofia\Downloads\telegram_cvet-d23c11fa.png" width="40" height="32"></a>
-                <a href="#"><img src="c:\Users\sofia\Downloads\5968776.png"></a>
+                <a href="#"><img src="images/photo/Facebook_f_logo_(2019).svg"></a>
+                <a href="#"><img src="images/photo/telegram_cvet-d23c11fa.png" width="40" height="32"></a>
+                <a href="#"><img src="images/photo/5968776.png"></a>
               </div>
           </div>
-
           <div class="footer-section">
             <h3>Способи оплати</h3>
             <ul>
@@ -269,7 +350,7 @@
               <li>Оплата на момент отримання</li>
             </ul>
             <div class="payment-icons">
-              <img src="c:\Users\sofia\Downloads\photo_2024-10-26_23-37-08.jpg">
+              <img src="images/photo/photo_2024-10-26_23-37-08.jpg">
             </div>
           </div>
         </div>
